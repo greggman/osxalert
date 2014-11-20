@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		571CD0131A1EA119009D79CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 571CD0121A1EA119009D79CF /* AppDelegate.m */; };
+		571CD0151A1EA119009D79CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 571CD0141A1EA119009D79CF /* main.m */; };
+		571CD0171A1EA119009D79CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571CD0161A1EA119009D79CF /* Images.xcassets */; };
+		571CD01A1A1EA119009D79CF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 571CD0181A1EA119009D79CF /* MainMenu.xib */; };
+		571CD0261A1EA119009D79CF /* osxalertappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 571CD0251A1EA119009D79CF /* osxalertappTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		571CD0201A1EA119009D79CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 571CD0041A1EA119009D79CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 571CD00B1A1EA119009D79CF;
+			remoteInfo = osxalertapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		571CD00C1A1EA119009D79CF /* osxalertapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = osxalertapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		571CD0101A1EA119009D79CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		571CD0111A1EA119009D79CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		571CD0121A1EA119009D79CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		571CD0141A1EA119009D79CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		571CD0161A1EA119009D79CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		571CD0191A1EA119009D79CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		571CD01F1A1EA119009D79CF /* osxalertappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = osxalertappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		571CD0241A1EA119009D79CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		571CD0251A1EA119009D79CF /* osxalertappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = osxalertappTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		571CD0091A1EA119009D79CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571CD01C1A1EA119009D79CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		571CD0031A1EA119009D79CF = {
+			isa = PBXGroup;
+			children = (
+				571CD00E1A1EA119009D79CF /* osxalertapp */,
+				571CD0221A1EA119009D79CF /* osxalertappTests */,
+				571CD00D1A1EA119009D79CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		571CD00D1A1EA119009D79CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				571CD00C1A1EA119009D79CF /* osxalertapp.app */,
+				571CD01F1A1EA119009D79CF /* osxalertappTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		571CD00E1A1EA119009D79CF /* osxalertapp */ = {
+			isa = PBXGroup;
+			children = (
+				571CD0111A1EA119009D79CF /* AppDelegate.h */,
+				571CD0121A1EA119009D79CF /* AppDelegate.m */,
+				571CD0161A1EA119009D79CF /* Images.xcassets */,
+				571CD0181A1EA119009D79CF /* MainMenu.xib */,
+				571CD00F1A1EA119009D79CF /* Supporting Files */,
+			);
+			path = osxalertapp;
+			sourceTree = "<group>";
+		};
+		571CD00F1A1EA119009D79CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				571CD0101A1EA119009D79CF /* Info.plist */,
+				571CD0141A1EA119009D79CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		571CD0221A1EA119009D79CF /* osxalertappTests */ = {
+			isa = PBXGroup;
+			children = (
+				571CD0251A1EA119009D79CF /* osxalertappTests.m */,
+				571CD0231A1EA119009D79CF /* Supporting Files */,
+			);
+			path = osxalertappTests;
+			sourceTree = "<group>";
+		};
+		571CD0231A1EA119009D79CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				571CD0241A1EA119009D79CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		571CD00B1A1EA119009D79CF /* osxalertapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571CD0291A1EA119009D79CF /* Build configuration list for PBXNativeTarget "osxalertapp" */;
+			buildPhases = (
+				571CD0081A1EA119009D79CF /* Sources */,
+				571CD0091A1EA119009D79CF /* Frameworks */,
+				571CD00A1A1EA119009D79CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = osxalertapp;
+			productName = osxalertapp;
+			productReference = 571CD00C1A1EA119009D79CF /* osxalertapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		571CD01E1A1EA119009D79CF /* osxalertappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571CD02C1A1EA119009D79CF /* Build configuration list for PBXNativeTarget "osxalertappTests" */;
+			buildPhases = (
+				571CD01B1A1EA119009D79CF /* Sources */,
+				571CD01C1A1EA119009D79CF /* Frameworks */,
+				571CD01D1A1EA119009D79CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				571CD0211A1EA119009D79CF /* PBXTargetDependency */,
+			);
+			name = osxalertappTests;
+			productName = osxalertappTests;
+			productReference = 571CD01F1A1EA119009D79CF /* osxalertappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		571CD0041A1EA119009D79CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Greggman;
+				TargetAttributes = {
+					571CD00B1A1EA119009D79CF = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					571CD01E1A1EA119009D79CF = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 571CD00B1A1EA119009D79CF;
+					};
+				};
+			};
+			buildConfigurationList = 571CD0071A1EA119009D79CF /* Build configuration list for PBXProject "osxalertapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 571CD0031A1EA119009D79CF;
+			productRefGroup = 571CD00D1A1EA119009D79CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				571CD00B1A1EA119009D79CF /* osxalertapp */,
+				571CD01E1A1EA119009D79CF /* osxalertappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		571CD00A1A1EA119009D79CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571CD0171A1EA119009D79CF /* Images.xcassets in Resources */,
+				571CD01A1A1EA119009D79CF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571CD01D1A1EA119009D79CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		571CD0081A1EA119009D79CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571CD0151A1EA119009D79CF /* main.m in Sources */,
+				571CD0131A1EA119009D79CF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571CD01B1A1EA119009D79CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571CD0261A1EA119009D79CF /* osxalertappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		571CD0211A1EA119009D79CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 571CD00B1A1EA119009D79CF /* osxalertapp */;
+			targetProxy = 571CD0201A1EA119009D79CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		571CD0181A1EA119009D79CF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				571CD0191A1EA119009D79CF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		571CD0271A1EA119009D79CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		571CD0281A1EA119009D79CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		571CD02A1A1EA119009D79CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = osxalertapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		571CD02B1A1EA119009D79CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = osxalertapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		571CD02D1A1EA119009D79CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = osxalertappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/osxalertapp.app/Contents/MacOS/osxalertapp";
+			};
+			name = Debug;
+		};
+		571CD02E1A1EA119009D79CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = osxalertappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/osxalertapp.app/Contents/MacOS/osxalertapp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		571CD0071A1EA119009D79CF /* Build configuration list for PBXProject "osxalertapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571CD0271A1EA119009D79CF /* Debug */,
+				571CD0281A1EA119009D79CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		571CD0291A1EA119009D79CF /* Build configuration list for PBXNativeTarget "osxalertapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571CD02A1A1EA119009D79CF /* Debug */,
+				571CD02B1A1EA119009D79CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		571CD02C1A1EA119009D79CF /* Build configuration list for PBXNativeTarget "osxalertappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571CD02D1A1EA119009D79CF /* Debug */,
+				571CD02E1A1EA119009D79CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 571CD0041A1EA119009D79CF /* Project object */;
+}
