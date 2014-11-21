@@ -6,14 +6,14 @@ Specifically this was written for the [native-msg-box npm module](http://www.npm
 
 ##Usage
 
-    osxalerter.app/Contents/MacOS/osxalerter msg title button1 button2 button3 etc..
+    osxalert msg title button1 button2 button3 etc..
 
 returns 1 - n depending on which button the user chose. 0 on error
 
 ##Example
 
     #!/bin/sh
-    ANSWER=`osxalerter.app/Contents/MacOS/osxalerter "hunt the wumpas?" "Hunter" "FoSho" "NoWay"`
+    ANSWER=`osxalert "hunt the wumpas?" "Hunter" "FoSho" "NoWay"`
     if [ "$ANSWER" = "1" ]; then
       echo User picked FoSho
     elif [ "$ANSWER" = "2" ]; then
@@ -25,16 +25,12 @@ returns 1 - n depending on which button the user chose. 0 on error
 ##Why What Where?
 
 native-msg-box originally used AppleScript but I started getting errors when used from
-in certain situations. My first attempt was a simple OSX command line app which is
-in the `osxalert` folder. The problem with that was (a) the window would appear under
-the apps that were calling it and (b) there was no way to find that window because
-there was no dock icon. The only way to find it was to minimize all other windows.
+in certain situations.
 
-The next solution was to make a complete OSX app package. That solved the issue of
-no dock icon and making sure the window came to the front but I couldn't get it
-not to require a main window.
+##Changing the dialog icon
 
-I could possible fix that issue by making my own dialog in that main window and
-not using `NSAlert` but it works I needed to move on. Maybe I'll revisit later.
+If there is a file with the name `icon.png` in the same folder as osxalert that file will
+be used as the icon in the dialog. I don't know the limits of it's size but I suspect
+it needs to be a power of 2 in size and 512 or less. In other words 512x512, 256x256, 32x32, etc...
 
 

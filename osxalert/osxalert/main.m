@@ -22,7 +22,22 @@ int main(int argc, const char * argv[]) {
         [alert setMessageText:msg];
         [alert setInformativeText:info];
         [alert setAlertStyle:NSWarningAlertStyle];
+
+        NSString *exePath = [[NSString alloc] initWithUTF8String:argv[0]];
+        NSString *appPath = [exePath stringByDeletingLastPathComponent];
+        NSString *imgPath = [appPath stringByAppendingPathComponent:@"icon.png"];
+
+        NSImage* img = [[NSImage alloc] initWithContentsOfFile:imgPath];
         
+        [alert setIcon:img];
+        
+        [NSApplication sharedApplication].applicationIconImage = img;
+        [[NSApplication sharedApplication] setActivationPolicy:NSApplicationActivationPolicyRegular];
+        
+        [[NSRunningApplication currentApplication] activateWithOptions:0];
+        [[NSRunningApplication currentApplication] activateWithOptions:NSApplicationActivateIgnoringOtherApps];        
+        
+        NSLog(@"%fx%f", img.size.width, img.size.height);
         NSModalResponse r = [alert runModal];
         int result = 0;
         switch (r) {
