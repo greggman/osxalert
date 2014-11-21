@@ -7,45 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		57BF90921A1EBF0E009D6658 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BF90911A1EBF0E009D6658 /* AppDelegate.m */; };
-		57BF90941A1EBF0E009D6658 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BF90931A1EBF0E009D6658 /* main.m */; };
-		57BF90961A1EBF0E009D6658 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57BF90951A1EBF0E009D6658 /* Images.xcassets */; };
-		57BF90991A1EBF0E009D6658 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57BF90971A1EBF0E009D6658 /* MainMenu.xib */; };
-		57BF90A51A1EBF0E009D6658 /* osxalertappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BF90A41A1EBF0E009D6658 /* osxalertappTests.m */; };
+		57BF90BE1A1EBFBF009D6658 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BF90BD1A1EBFBF009D6658 /* AppDelegate.m */; };
+		57BF90C01A1EBFBF009D6658 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BF90BF1A1EBFBF009D6658 /* main.m */; };
+		57BF90C51A1EBFBF009D6658 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57BF90C31A1EBFBF009D6658 /* MainMenu.xib */; };
+		57BF90D11A1EBFBF009D6658 /* osxalerterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BF90D01A1EBFBF009D6658 /* osxalerterTests.m */; };
+		57BF90DB1A1EC0DB009D6658 /* icons.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 57BF90DA1A1EC0DB009D6658 /* icons.iconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		57BF909F1A1EBF0E009D6658 /* PBXContainerItemProxy */ = {
+		57BF90CB1A1EBFBF009D6658 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 57BF90831A1EBF0E009D6658 /* Project object */;
+			containerPortal = 57BF90AF1A1EBFBF009D6658 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 57BF908A1A1EBF0E009D6658;
-			remoteInfo = osxalertapp;
+			remoteGlobalIDString = 57BF90B61A1EBFBF009D6658;
+			remoteInfo = osxalerter;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		57BF908B1A1EBF0E009D6658 /* osxalertapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = osxalertapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		57BF908F1A1EBF0E009D6658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57BF90901A1EBF0E009D6658 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		57BF90911A1EBF0E009D6658 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		57BF90931A1EBF0E009D6658 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		57BF90951A1EBF0E009D6658 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		57BF90981A1EBF0E009D6658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		57BF909E1A1EBF0E009D6658 /* osxalertappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = osxalertappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		57BF90A31A1EBF0E009D6658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57BF90A41A1EBF0E009D6658 /* osxalertappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = osxalertappTests.m; sourceTree = "<group>"; };
+		57BF90B71A1EBFBF009D6658 /* osxalerter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = osxalerter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BF90BB1A1EBFBF009D6658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57BF90BC1A1EBFBF009D6658 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57BF90BD1A1EBFBF009D6658 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57BF90BF1A1EBFBF009D6658 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57BF90C41A1EBFBF009D6658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		57BF90CA1A1EBFBF009D6658 /* osxalerterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = osxalerterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BF90CF1A1EBFBF009D6658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57BF90D01A1EBFBF009D6658 /* osxalerterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = osxalerterTests.m; sourceTree = "<group>"; };
+		57BF90DA1A1EC0DB009D6658 /* icons.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = icons.iconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		57BF90881A1EBF0E009D6658 /* Frameworks */ = {
+		57BF90B41A1EBFBF009D6658 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		57BF909B1A1EBF0E009D6658 /* Frameworks */ = {
+		57BF90C71A1EBFBF009D6658 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -55,58 +55,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		57BF90821A1EBF0E009D6658 = {
+		57BF90AE1A1EBFBF009D6658 = {
 			isa = PBXGroup;
 			children = (
-				57BF908D1A1EBF0E009D6658 /* osxalertapp */,
-				57BF90A11A1EBF0E009D6658 /* osxalertappTests */,
-				57BF908C1A1EBF0E009D6658 /* Products */,
+				57BF90B91A1EBFBF009D6658 /* osxalerter */,
+				57BF90CD1A1EBFBF009D6658 /* osxalerterTests */,
+				57BF90B81A1EBFBF009D6658 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		57BF908C1A1EBF0E009D6658 /* Products */ = {
+		57BF90B81A1EBFBF009D6658 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				57BF908B1A1EBF0E009D6658 /* osxalertapp.app */,
-				57BF909E1A1EBF0E009D6658 /* osxalertappTests.xctest */,
+				57BF90B71A1EBFBF009D6658 /* osxalerter.app */,
+				57BF90CA1A1EBFBF009D6658 /* osxalerterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		57BF908D1A1EBF0E009D6658 /* osxalertapp */ = {
+		57BF90B91A1EBFBF009D6658 /* osxalerter */ = {
 			isa = PBXGroup;
 			children = (
-				57BF90901A1EBF0E009D6658 /* AppDelegate.h */,
-				57BF90911A1EBF0E009D6658 /* AppDelegate.m */,
-				57BF90951A1EBF0E009D6658 /* Images.xcassets */,
-				57BF90971A1EBF0E009D6658 /* MainMenu.xib */,
-				57BF908E1A1EBF0E009D6658 /* Supporting Files */,
+				57BF90BC1A1EBFBF009D6658 /* AppDelegate.h */,
+				57BF90BD1A1EBFBF009D6658 /* AppDelegate.m */,
+				57BF90C31A1EBFBF009D6658 /* MainMenu.xib */,
+				57BF90BA1A1EBFBF009D6658 /* Supporting Files */,
 			);
-			path = osxalertapp;
+			path = osxalerter;
 			sourceTree = "<group>";
 		};
-		57BF908E1A1EBF0E009D6658 /* Supporting Files */ = {
+		57BF90BA1A1EBFBF009D6658 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				57BF908F1A1EBF0E009D6658 /* Info.plist */,
-				57BF90931A1EBF0E009D6658 /* main.m */,
+				57BF90DA1A1EC0DB009D6658 /* icons.iconset */,
+				57BF90BB1A1EBFBF009D6658 /* Info.plist */,
+				57BF90BF1A1EBFBF009D6658 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		57BF90A11A1EBF0E009D6658 /* osxalertappTests */ = {
+		57BF90CD1A1EBFBF009D6658 /* osxalerterTests */ = {
 			isa = PBXGroup;
 			children = (
-				57BF90A41A1EBF0E009D6658 /* osxalertappTests.m */,
-				57BF90A21A1EBF0E009D6658 /* Supporting Files */,
+				57BF90D01A1EBFBF009D6658 /* osxalerterTests.m */,
+				57BF90CE1A1EBFBF009D6658 /* Supporting Files */,
 			);
-			path = osxalertappTests;
+			path = osxalerterTests;
 			sourceTree = "<group>";
 		};
-		57BF90A21A1EBF0E009D6658 /* Supporting Files */ = {
+		57BF90CE1A1EBFBF009D6658 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				57BF90A31A1EBF0E009D6658 /* Info.plist */,
+				57BF90CF1A1EBFBF009D6658 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -114,60 +114,60 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		57BF908A1A1EBF0E009D6658 /* osxalertapp */ = {
+		57BF90B61A1EBFBF009D6658 /* osxalerter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57BF90A81A1EBF0E009D6658 /* Build configuration list for PBXNativeTarget "osxalertapp" */;
+			buildConfigurationList = 57BF90D41A1EBFBF009D6658 /* Build configuration list for PBXNativeTarget "osxalerter" */;
 			buildPhases = (
-				57BF90871A1EBF0E009D6658 /* Sources */,
-				57BF90881A1EBF0E009D6658 /* Frameworks */,
-				57BF90891A1EBF0E009D6658 /* Resources */,
+				57BF90B31A1EBFBF009D6658 /* Sources */,
+				57BF90B41A1EBFBF009D6658 /* Frameworks */,
+				57BF90B51A1EBFBF009D6658 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = osxalertapp;
-			productName = osxalertapp;
-			productReference = 57BF908B1A1EBF0E009D6658 /* osxalertapp.app */;
+			name = osxalerter;
+			productName = osxalerter;
+			productReference = 57BF90B71A1EBFBF009D6658 /* osxalerter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		57BF909D1A1EBF0E009D6658 /* osxalertappTests */ = {
+		57BF90C91A1EBFBF009D6658 /* osxalerterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57BF90AB1A1EBF0E009D6658 /* Build configuration list for PBXNativeTarget "osxalertappTests" */;
+			buildConfigurationList = 57BF90D71A1EBFBF009D6658 /* Build configuration list for PBXNativeTarget "osxalerterTests" */;
 			buildPhases = (
-				57BF909A1A1EBF0E009D6658 /* Sources */,
-				57BF909B1A1EBF0E009D6658 /* Frameworks */,
-				57BF909C1A1EBF0E009D6658 /* Resources */,
+				57BF90C61A1EBFBF009D6658 /* Sources */,
+				57BF90C71A1EBFBF009D6658 /* Frameworks */,
+				57BF90C81A1EBFBF009D6658 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				57BF90A01A1EBF0E009D6658 /* PBXTargetDependency */,
+				57BF90CC1A1EBFBF009D6658 /* PBXTargetDependency */,
 			);
-			name = osxalertappTests;
-			productName = osxalertappTests;
-			productReference = 57BF909E1A1EBF0E009D6658 /* osxalertappTests.xctest */;
+			name = osxalerterTests;
+			productName = osxalerterTests;
+			productReference = 57BF90CA1A1EBFBF009D6658 /* osxalerterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		57BF90831A1EBF0E009D6658 /* Project object */ = {
+		57BF90AF1A1EBFBF009D6658 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Greggman;
 				TargetAttributes = {
-					57BF908A1A1EBF0E009D6658 = {
+					57BF90B61A1EBFBF009D6658 = {
 						CreatedOnToolsVersion = 6.1;
 					};
-					57BF909D1A1EBF0E009D6658 = {
+					57BF90C91A1EBFBF009D6658 = {
 						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 57BF908A1A1EBF0E009D6658;
+						TestTargetID = 57BF90B61A1EBFBF009D6658;
 					};
 				};
 			};
-			buildConfigurationList = 57BF90861A1EBF0E009D6658 /* Build configuration list for PBXProject "osxalertapp" */;
+			buildConfigurationList = 57BF90B21A1EBFBF009D6658 /* Build configuration list for PBXProject "osxalerter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -175,28 +175,28 @@
 				en,
 				Base,
 			);
-			mainGroup = 57BF90821A1EBF0E009D6658;
-			productRefGroup = 57BF908C1A1EBF0E009D6658 /* Products */;
+			mainGroup = 57BF90AE1A1EBFBF009D6658;
+			productRefGroup = 57BF90B81A1EBFBF009D6658 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				57BF908A1A1EBF0E009D6658 /* osxalertapp */,
-				57BF909D1A1EBF0E009D6658 /* osxalertappTests */,
+				57BF90B61A1EBFBF009D6658 /* osxalerter */,
+				57BF90C91A1EBFBF009D6658 /* osxalerterTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		57BF90891A1EBF0E009D6658 /* Resources */ = {
+		57BF90B51A1EBFBF009D6658 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57BF90961A1EBF0E009D6658 /* Images.xcassets in Resources */,
-				57BF90991A1EBF0E009D6658 /* MainMenu.xib in Resources */,
+				57BF90DB1A1EC0DB009D6658 /* icons.iconset in Resources */,
+				57BF90C51A1EBFBF009D6658 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		57BF909C1A1EBF0E009D6658 /* Resources */ = {
+		57BF90C81A1EBFBF009D6658 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -206,38 +206,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		57BF90871A1EBF0E009D6658 /* Sources */ = {
+		57BF90B31A1EBFBF009D6658 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57BF90941A1EBF0E009D6658 /* main.m in Sources */,
-				57BF90921A1EBF0E009D6658 /* AppDelegate.m in Sources */,
+				57BF90C01A1EBFBF009D6658 /* main.m in Sources */,
+				57BF90BE1A1EBFBF009D6658 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		57BF909A1A1EBF0E009D6658 /* Sources */ = {
+		57BF90C61A1EBFBF009D6658 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57BF90A51A1EBF0E009D6658 /* osxalertappTests.m in Sources */,
+				57BF90D11A1EBFBF009D6658 /* osxalerterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		57BF90A01A1EBF0E009D6658 /* PBXTargetDependency */ = {
+		57BF90CC1A1EBFBF009D6658 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 57BF908A1A1EBF0E009D6658 /* osxalertapp */;
-			targetProxy = 57BF909F1A1EBF0E009D6658 /* PBXContainerItemProxy */;
+			target = 57BF90B61A1EBFBF009D6658 /* osxalerter */;
+			targetProxy = 57BF90CB1A1EBFBF009D6658 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		57BF90971A1EBF0E009D6658 /* MainMenu.xib */ = {
+		57BF90C31A1EBFBF009D6658 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				57BF90981A1EBF0E009D6658 /* Base */,
+				57BF90C41A1EBFBF009D6658 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -245,7 +245,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		57BF90A61A1EBF0E009D6658 /* Debug */ = {
+		57BF90D21A1EBFBF009D6658 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -286,7 +286,7 @@
 			};
 			name = Debug;
 		};
-		57BF90A71A1EBF0E009D6658 /* Release */ = {
+		57BF90D31A1EBFBF009D6658 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -321,29 +321,29 @@
 			};
 			name = Release;
 		};
-		57BF90A91A1EBF0E009D6658 /* Debug */ = {
+		57BF90D51A1EBFBF009D6658 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = osxalertapp/Info.plist;
+				INFOPLIST_FILE = osxalerter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		57BF90AA1A1EBF0E009D6658 /* Release */ = {
+		57BF90D61A1EBFBF009D6658 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = osxalertapp/Info.plist;
+				INFOPLIST_FILE = osxalerter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		57BF90AC1A1EBF0E009D6658 /* Debug */ = {
+		57BF90D81A1EBFBF009D6658 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -356,14 +356,14 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = osxalertappTests/Info.plist;
+				INFOPLIST_FILE = osxalerterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/osxalertapp.app/Contents/MacOS/osxalertapp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/osxalerter.app/Contents/MacOS/osxalerter";
 			};
 			name = Debug;
 		};
-		57BF90AD1A1EBF0E009D6658 /* Release */ = {
+		57BF90D91A1EBFBF009D6658 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -372,42 +372,42 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = osxalertappTests/Info.plist;
+				INFOPLIST_FILE = osxalerterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/osxalertapp.app/Contents/MacOS/osxalertapp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/osxalerter.app/Contents/MacOS/osxalerter";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		57BF90861A1EBF0E009D6658 /* Build configuration list for PBXProject "osxalertapp" */ = {
+		57BF90B21A1EBFBF009D6658 /* Build configuration list for PBXProject "osxalerter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57BF90A61A1EBF0E009D6658 /* Debug */,
-				57BF90A71A1EBF0E009D6658 /* Release */,
+				57BF90D21A1EBFBF009D6658 /* Debug */,
+				57BF90D31A1EBFBF009D6658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57BF90A81A1EBF0E009D6658 /* Build configuration list for PBXNativeTarget "osxalertapp" */ = {
+		57BF90D41A1EBFBF009D6658 /* Build configuration list for PBXNativeTarget "osxalerter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57BF90A91A1EBF0E009D6658 /* Debug */,
-				57BF90AA1A1EBF0E009D6658 /* Release */,
+				57BF90D51A1EBFBF009D6658 /* Debug */,
+				57BF90D61A1EBFBF009D6658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		57BF90AB1A1EBF0E009D6658 /* Build configuration list for PBXNativeTarget "osxalertappTests" */ = {
+		57BF90D71A1EBFBF009D6658 /* Build configuration list for PBXNativeTarget "osxalerterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57BF90AC1A1EBF0E009D6658 /* Debug */,
-				57BF90AD1A1EBF0E009D6658 /* Release */,
+				57BF90D81A1EBFBF009D6658 /* Debug */,
+				57BF90D91A1EBFBF009D6658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 57BF90831A1EBF0E009D6658 /* Project object */;
+	rootObject = 57BF90AF1A1EBFBF009D6658 /* Project object */;
 }
