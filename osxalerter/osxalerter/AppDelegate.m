@@ -22,9 +22,6 @@
     [[NSRunningApplication currentApplication] activateWithOptions:NSApplicationActivateIgnoringOtherApps];
     
     NSArray *args = [[NSProcessInfo processInfo] arguments];
-    for (int ii = 0; ii < args.count; ++ii) {
-        NSLog(@"%d: %@", ii, args[ii]);
-    }
     NSString *msg  = args.count > 1 ? args[1] : @"?";
     NSString *info = args.count > 2 ? args[2] : @"?";
     
